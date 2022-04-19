@@ -1,18 +1,17 @@
 # GT_LRI
 
 # Introduction:
-This program calculate the LRI value of microarray dataset with genes in rows and sample in columns
+This program calculate the LRI value of the genes in the microarray dataset (preferably Case-Control dataset ) with genes in rows and samples in columns
 
 # Procedure:
 
 1. First execute the new.py file
-	a)Enter the Input as the mt Filename as data.txt as provided here
-	b)input the tissue Filename as control.txt
+	* Enter the Input as the mt Filename as data.txt as provided here
+	* Input the tissue Filename as control.txt
 
 2. The above program will generate neu.txt file which will be used in the next program
 
 3. Change the code in posval.cpp as follows
-
 	  * sd_col = 1393 ( assign the number of column of neu.txt file in line number 156)
   	* sd_row = 20545 ( assign the number of row of neu.txt file in number 156)
 
